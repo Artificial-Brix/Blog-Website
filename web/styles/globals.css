@@ -14,3 +14,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.nav {
+  background-color: green;
+  display: flex;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 0 auto;
+}
